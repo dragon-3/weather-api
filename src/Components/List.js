@@ -41,7 +41,7 @@ function List() {
                         <h3>{data.name}</h3>
                     </div>
                     <div className="temp">
-                        {data.main ? <h1>{data.main.temp.toFixed()}</h1>: null}
+                        {data.main ? <h1>{data.main.temp.toFixed()}F</h1>: null}
                     </div>
                 </div>
 
