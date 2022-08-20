@@ -19,9 +19,10 @@ function List() {
 
     const searchLocation = (event) => {
         if (event.key == 'Enter') {
-            axios.get(url)
-            .then((response) => {
-                setData(response.data)
+            fetch(url)
+            .then((response) => response.json())
+            .then((data) => {
+                setData(data)
             })
         }
         // setLocation("")
