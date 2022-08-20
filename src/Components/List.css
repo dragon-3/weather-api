@@ -31,6 +31,10 @@
 
 }
 
+.top {
+    font-size: 50px;
+}
+
 .bottom {
     bottom: 25%;
     display: flex;
@@ -39,3 +43,7 @@
     background-color: rgba(6, 13, 19, 0.3);
 
 } 
+
+.search input {
+    height: 30px;
+}
